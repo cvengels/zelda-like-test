@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Knight : MonoBehaviour, IInteractable
+public class Knight : Enemy , IInteractable
 {
     public void Interact()
     {
